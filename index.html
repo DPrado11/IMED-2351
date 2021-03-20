@@ -1,17 +1,42 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en-US">
+
 <head>
-<meta charset="utf-8">
-<title>Mac</title>
-<link href="css.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JS Typing Speed Test</title>
+    <script src="file:///C|/Users/Owner/Downloads/Ex_Files_JavaScript_EssT (1)/Ex_Files_JavaScript_EssT/Exercise Files/08_02/script.js" async></script>
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i,900,900i" type="text/css" media="all">
+    <link rel="stylesheet" href="file:///C|/Users/Owner/Downloads/Ex_Files_JavaScript_EssT (1)/Ex_Files_JavaScript_EssT/Exercise Files/08_02/style.css">
 </head>
-	
-<h1 align="center">Hello!</h1>
 
 <body>
-	<p>I ams Mr. Mac and I luv mac and chez.</p>
-	<img src="IMG_7372.JPG" width="720" height="960" onload="alert('Meet Mr. Mac')" onMouseOver="alert('Mor chez plz')" alt=""/>
-	<br><br>
-	<a href="#" onClick="alert ('Meow!')" >&#10024 Clik here if I can git mor mak n chez &#10024</a>
+    <header class="masthead">
+        <h1>Test Your Typing Speed</h1>
+    </header>
+    <main class="main">
+        <article class="intro">
+            <p>This is a typing test. Your goal is to duplicate the provided text, EXACTLY, in the field below. The timer starts when you start typing, and only stops when you match this text exactly. Good Luck!</p>
+        </article><!-- .intro -->
+        <section class="test-area">
+            <div id="origin-text">
+                <p>Use this text to take your speed test: This strange, but fairly common creature is a type of mammal. It's about the size of a rabbit, has six legs and a short, strong tail. They have a thick, but delicate skin covered in long, soft hairs which is usually either blue, dark brown or light bronze or a combination of these colors. They live in frozen areas and are fairly common. They're herbivores and their small, long mouths, their teeth and rough tongue are ideal for eating berries. These creatures are calm and they have no real territory and wish to avoid conflicts. </p>
+            </div><!-- #origin-text -->
+
+            <div class="test-wrapper">
+                <textarea id="test-area" name="textarea" rows="6" placeholder="The clock starts when you start typing."></textarea>
+            </div><!-- .test-wrapper -->
+
+            <div class="meta">
+                <section id="clock">
+                    <div class="timer">00:00:00</div>
+                </section>
+
+                <button id="reset">Start over</button>
+            </div><!-- .meta -->
+        </section><!-- .test-area -->
+    </main>
+
 </body>
+
 </html>
